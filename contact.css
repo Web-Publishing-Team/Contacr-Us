@@ -1,0 +1,65 @@
+	html,body{
+	font-family: Verdana, sans-serif;
+	}
+	
+	.container{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 1%;
+	}
+	
+	.contact-method{
+	width: 280px;
+	height: 150px;
+	display: inline-block;
+	background: silver;
+	margin: 10px;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	}
+	
+	.contact-method i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	line-height: 140px;
+	background-color: #80D0CD;
+	z-index: 1;
+	transition: transform 0.6s;
+	}
+	
+	.contact-method span{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 4px 0;
+	}
+	
+	.contact-method:hover i{
+	transform: translateY(-40px);
+	}
+	
+	.p{
+	font-size:30px;
+	color:#222f3e;
+	margin-top:10%;
+	text-indent:5%;
+	}
+
+	.fas fa-envelope{
+	font-size:10em;
+	}
+	
+	.page-wrapper{
+	min-height: 35%;
+	}
+
+	.page-wrapper a:hover{
+	color: #006699;
+	}
